@@ -1,0 +1,23 @@
+.container {
+    max-width: 144rem;
+    margin: 0 auto;
+    background-color: #fff;
+
+    min-height: 100vh;
+}
+
+.footer {
+    height: 50rem;
+    background-color: #00252E;
+
+    &__copyright {
+        color: #fff;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.bg-img {
+    display: block;
+}

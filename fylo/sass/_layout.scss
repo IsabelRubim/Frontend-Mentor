@@ -1,0 +1,24 @@
+.container {
+    background-color: pink;
+    margin: 10rem auto;
+    width: 114rem;
+    min-height: 75rem;
+    box-shadow: var( --shadow-dark);
+
+    display: flex;
+}
+
+.bg-left {
+    width: 50%;
+    background-image: linear-gradient(17deg, var(--color-primary-softblue), var(--color-primary-darkblue));
+}
+
+.bg-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    padding: 3rem;
+    width: 60%;
+    background-color: #fff;
+}
